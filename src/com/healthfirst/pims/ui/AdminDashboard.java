@@ -32,8 +32,7 @@ public class AdminDashboard extends JFrame {
         tabbedPane.setFont(new Font("Segoe UI", Font.PLAIN, 14));
 
         // ----- Tab 1: Medicines -----
-        JPanel medicinesPanel = createPlaceholderPanel("Medicines Management (Coming next)");
-        tabbedPane.addTab("Medicines", medicinesPanel);
+        tabbedPane.addTab("Medicines", new MedicinesPanel());
 
         // ----- Tab 2: Suppliers -----
         JPanel suppliersPanel = createPlaceholderPanel("Suppliers Management (Coming soon)");

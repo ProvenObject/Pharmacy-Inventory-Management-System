@@ -41,8 +41,7 @@ public class AdminDashboard extends JFrame {
         tabbedPane.addTab("Users", new UsersPanel());
 
         // ----- Tab 4: Reports -----
-        JPanel reportsPanel = createPlaceholderPanel("Reports (Coming soon)");
-        tabbedPane.addTab("Reports", reportsPanel);
+        tabbedPane.addTab("Reports", new ReportsPanel());
 
         // Add the tabbed pane to the window
         add(tabbedPane);

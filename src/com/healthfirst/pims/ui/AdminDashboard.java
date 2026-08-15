@@ -35,8 +35,7 @@ public class AdminDashboard extends JFrame {
         tabbedPane.addTab("Medicines", new MedicinesPanel());
 
         // ----- Tab 2: Suppliers -----
-        JPanel suppliersPanel = createPlaceholderPanel("Suppliers Management (Coming soon)");
-        tabbedPane.addTab("Suppliers", suppliersPanel);
+        tabbedPane.addTab("Suppliers", new SuppliersPanel());
 
         // ----- Tab 3: Users -----
         JPanel usersPanel = createPlaceholderPanel("User Management (Coming soon)");
